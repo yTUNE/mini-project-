@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/login.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--FAV ICON-->
+<link href="image/B2B - favicon.jpg" rel="icon">
+<link href="image/B2B - favicon.jpg" rel="apple-touch-icon">
+</head>
+<body style="background-color:rgb(245, 241, 241)">
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-lg-7">
+				<!-- logo -->
+				<div class="d-flex justify-content-center">
+					<img src="image/logo.png" alt="logo"/>
+				</div>
+			</div>
+			<!-- form -->
+			<div class="col-lg-5">
+				<div class="wrapper" >
+					<div class="heading">
+						<h1>Welcome</h1>
+					</div>
+					<div class="form mt-5">
+						<form>
+							<span>
+								<i class="fa fa-user"></i>
+								<input type="text" placeholder="Username"  name="username" id="username" required>
+							</span><br>
+							<span>
+								<i class="fa-solid fa-lock"></i>
+								<input type="password" placeholder="Password" name="password" id="password" required>
+							</span><br>
+							<!-- LOGIN -->
+							<div class="signup">
+								<button type="button" class="btn btn-primary" id="submit" onclick="validate();">Login</button>
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Sign up
+								</button>
+								<!-- REGISTRATION -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+										  <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+											<div class="modal-body text-bg-light">
+												<div class="mb-4">
+													<label for="exampleFormControlInput1" class="form-label">Email address</label>
+													<input type="email"  class="form-control border-primary" id="exampleFormControlInput1" placeholder="ex. mark_chan@gmail.com">
+
+													<label for="exampleFormControlInput1" class="form-label">Username</label>
+													<input type="text"  class="form-control border-primary" id="exampleFormControlInput1" placeholder="ex. marc123">
+													
+													<label for="exampleFormControlInput1" class="form-label">Password</label>
+													<input type="password" class="form-control border-primary" id="exampleFormControlInput1" placeholder="********">
+
+													<label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+													<input type="password" class="form-control border-primary" id="exampleFormControlInput1" placeholder="********">
+
+													<label for="exampleFormControlInput1" class="form-label">Contact Address</label>
+													<input type="text" class="form-control border-primary" id="exampleFormControlInput1" placeholder="ex. #146 Tondo, manila">
+
+													<label for="exampleFormControlInput1" class="form-label">Company Address</label>
+													<input type="text" class="form-control border-primary" id="exampleFormControlInput1" placeholder="ex. Portavaga, Session road, Baguio City">
+
+													<label for="exampleFormControlInput1" class="form-label">DTI/Business Permit</label>
+													<input type="file" class="form-control border-primary" id="exampleFormControlInput1" placeholder="ex. 143-00023450-9876">
+
+													<label for="exampleFormControlInput1" class="form-label">Line of Business</label>
+													<input type="email" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Manufacturing,Reseller,Exporter">
+
+													<label for="exampleFormControlInput1" class="form-label">Logo Company/Picture</label>
+													<input type="file" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Logo or Picture of your Company">
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>			
+							</div>	
+						</form>
+						<!-- icons -->
+						<div class="d-flex justify-content-center gap-3">
+							<a src="#">
+								<i class="bi-facebook"></i>
+							</a>
+							<a src="#">
+								<i class="bi-google"></i>
+							</a>
+							<a src="#">
+								<i class="bi-apple"></i>
+							</a>
+							<a src="#">
+								<i class="bi-instagram"></i>
+							</a>
+							<a src="#">
+								<i class="bi-linkedin"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<!-- Footer -->
+	<div class="container text-center mt-5 pt-5">
+		<div class="row">
+			<div class="col-lg-12">
+				<p>
+					FOR ENTERTAIMENT PURPOSES. 2018 AMC NETWORK ENTERTAIMENT LLC, ALL RIGHTS RESERVED.
+				</p>
+				<div class="footer-links">
+					<a href="https://www.amc.com/privacy">
+						Privacy |
+					</a>
+					<a href="https://www.amc.com/privacy">
+						Cookie |
+					</a>
+					<a href="https://www.amc.com/privacy">
+						Terms of Use |
+					</a>
+					<a href="https://www.amc.com/privacy">
+						Contact Us
+					</a>
+				</div>
+				<p>
+					This is a work of fiction. Names, Charaters, Business, Place,
+					Events, Locales, and incidents are either the product of the 
+					author's imagination or used in a fictitution manner. Any resemvlance
+					to actual persons, living or dead, or actual events is purely
+					coincidental.
+				</p>
+			</div>	
+		</div>			
+	</div>
+</body>
+</html>

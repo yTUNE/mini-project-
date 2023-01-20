@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+       <!--FAV ICON-->
+    <link href="image/B2B - favicon.jpg" rel="icon">
+    <link href="image/B2B - favicon.jpg" rel="apple-touch-icon">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+  
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+ 
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+        <link rel="stylesheet" href="css/styles.css" />
+      
+        <link rel="stylesheet" href="js/main.js" />
+
+    <title>Personal Care</title>
+</head>
+<body>
+    <!-- NAV -->
+  <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+
+    <!--------------------------------- Topbar Search-------------------------------- -->
+    <div class="search-nav">
+        <form class="form-wrapper cf">
+            <input type="text" class="form-control  border-0 small" placeholder="Search here..." required>
+           
+      </form>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <i class="fa fa-search fa-sm"></i>
+      </button>
+        <ul class="navbar-nav ml-auto">
+    
+          <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+         
+          </li>
+<!-- ---------------------------------------------NOTIFICATION---------------------------------------------- -->
+      <div class="nav-bell">
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-bell fa-fw"></i>
+        </a>
+  
+    
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+          <h6 class="dropdown-header">
+            Alerts Center
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 18:06</div>
+              <span class="font-weight-bold">RCS Corp. is live now.</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 17:18</div>
+              <span class="font-weight-bold">Cleaners Unlimited was live</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 23:02</div>
+              <span class="font-weight-bold">CMD like your photo.</span>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Show All</a>
+        </div>
+      </li>
+    </div>
+<!------------------------------------------------ MESSAGES----------------------------------------- -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-envelope fa-fw"></i>
+        </a>
+  
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+          <h6 class="dropdown-header">
+            Messages
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg1.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div class="font-weight-bold">
+              <div class="text-truncate"> Shop Check</div>
+              <div class="small text-gray-500"> Out for delivery.</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg2.jpg">
+              <div class="status-indicator"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Classic Motors</div>
+              <div class="small text-gray-500"> [Order Confirmation] </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg3.jpg">
+              <div class="status-indicator bg-warning"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Sweet Clouds</div>
+              <div class="small text-gray-500"> Thank you for your Order. </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg4.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Faucet Basketball</div>
+              <div class="small text-gray-500"> PAYDAY SALE is here. </div>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Read all Messages</a>
+        </div>
+      </li>
+<!---------------------------------------- DROPDOWN----------------------------------------------- -->
+      <div class="topbar-divider d-none d-sm-block"></div>
+
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <span><img class="img-profile rounded-circle" src="image/profile-picture.png"></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+            Settings
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            Activity Log
+          </a>
+            <!-- Button trigger modal -->
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                Logout
+            </a>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="index.html">Logout</a>
+          </div>
+      </div>
+  </div>
+</div>    
+      </li>
+    </ul>
+  </nav>
+<!--------------------------------------------- END NAVBAR------------------------------------------------- -->
+<!---------------------------------------------- CAROUSEL ---------------------------------------------------->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-12 mx-auto">
+            <div class="left">
+
+    <!-- SIDEBAR-->
+    <div class="sidebar">
+        <a class="menu-item" href="home.html">
+            <span><i class="fa fa-home" ></i></span><h6>Home</h6>
+        </a>
+        <a class="menu-item active" href="marketplace.html">
+            <span><i class="fa fa-shopping-bag"></i></span><h6>Market Place</h6>
+        </a>
+        <a class="menu-item" href="payment.html">
+            <span><i class="fa fa-credit-card"></i></span><h6>Wallet</h6>
+        </a>
+        <a class="menu-item" href="cart.html">
+            <span><i class="fa fa-shopping-basket"></i></span><h6>My Orders</h6>
+        </a>
+
+            <a class="menu-item">
+                <span><i class="fa fa-handshake-o"></i></span><h6>Seller Centre</h6>
+            </a>
+            <a class="menu-item">
+                <span><i class="fa fa-heart"></i></span><h6>My Wishlist</h6>
+            </a>
+            <a class="menu-item">
+                <span><i class="fa fa-video-camera"></i></span><h6>Live Selling</h6>
+            </a>
+          
+        </div>
+    </div>
+</div>
+<!----------------------------- CAROUSEL-------------------------------- -->
+        <div class="col-lg-9 col-12 mx-auto">
+            <div id="demo" class="carousel slide pb-3" data-bs-ride="carousel">
+      
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/product_personal1.gif" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/product_personal2.gif" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/product_personal3.gif" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/product_personal4.gif" class="d-block w-100">
+                  </div>
+                </div>
+              
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+        </div>
+<!----------------------------------- END CAROUSEL----------------------------------->
+    </div>
+</div>
+
+
+<!-------------------------------------------- CATEGORY------------------------------------------- -->
+<!-- FILTER -->
+<div class="category-product">
+    <div class="container">
+        <div class="row border border-white rounded bg-white">
+            <div class=" col-lg-3 col-12 mx-auto pt-5 pb-5">
+                <div class="category-header pb-2">
+                    <h2>PERSONAL <b>CARE</b></h2>
+                    </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Categories
+                            </button>
+                        </h2>
+<!----------------------------------------- ACCORDION 1-------------------------------------------->
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox1" class="styled" type="checkbox" />
+                                    <label for="checkbox1">
+                                    Skin Care
+                                    </label>
+                                </div>
+
+                            <div class="checkbox checkbox-primary">
+                                <input id="checkbox2" class="styled" type="checkbox" />
+                                <label for="checkbox2">
+                                    Body Care
+                                </label>
+                            </div>
+
+                            <div class="checkbox checkbox-primary">
+                                <input id="checkbox3" class="styled" type="checkbox" />
+                                <label for="checkbox3">
+                                    Men Grooming
+                                </label>
+                            </div>
+
+                            <div class="checkbox checkbox-primary">
+                                    <input id="checkbox4" class="styled" type="checkbox" />
+                                    <label for="checkbox4">
+                                       Make Up
+                                    </label>
+                                </div>
+
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox5" class="styled" type="checkbox" />
+                                    <label for="checkbox5">
+                                        Fragrance
+                                    </label>
+                                </div>
+
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox6" class="styled" type="checkbox" />
+                                    <label for="checkbox6">
+                                        Skin Care Tools
+                                    </label>
+                                </div>
+
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox7" class="styled" type="checkbox" />
+                                    <label for="checkbox7">
+                                        Hair Care
+                                    </label>
+                                </div>
+    
+                                <div class="checkbox checkbox-primary">
+                                        <input id="checkbox8" class="styled" type="checkbox" />
+                                        <label for="checkbox8">
+                                        Oral Care
+                                        </label>
+                                </div>
+
+                                <div class="checkbox checkbox-primary">
+                                    <input id="checkbox" class="styled" type="checkbox" />
+                                    <label for="checkbox9">
+                                    Beauty Care Machine
+                                    </label>
+                                </div>       
+                </div>
+            </div> 
+
+<!------------------------------------------------ACCORDION 2-------------------------------------------- -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Filter
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body text-center">
+                        <input type="range" class="custom-range pt-2 pb-2" min="0" max="100" name="">
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label class="range pb-2 text-center">Min</label>
+                          <input class="form-control text-center" placeholder="0" type="number">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label class="range pb-2 pt-2 text-center">Max</label>
+                          <input class="form-control text-center" placeholder="₱1,0000" type="number">
+                        </div>
+                        </div>
+                        <div class="range-btn pt-3">  
+                        <a href="#" class="highlight-button btn btn-primary btn-medium button xs-margin-bottom-five text-center" data-abc="true">Apply Now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div> 
+
+        </div>
+    </div>
+</div>
+       <!------------------------ CATEGORY CARDS---------------------------------->
+       <div class="col-lg-9 col-12 mx-auto pt-5">
+        <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+<!-- IMAGE 1 -->
+                                <a href="#">
+                                    <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/10/21/1666330677c0397edc5ab81f74143c27805d5572e2_thumbnail_900x.webp">
+                                    <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/09/28/1664355341183b776d2f6a8444f3c7892d9903d6c2_thumbnail_900x.webp">
+                                </a>
+                                <ul class="social">
+                                    <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                    <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">20%</span>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Ethereal Glow Lip Balm</a></h3>
+                                <div class="price">₱50.00
+                                    <span>Min(100 pcs)</span>
+                                </div>
+                                <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+<!-- IMAGE 2 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#">
+                                    <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/10/17/1665993603be5a3e2a9155551badd91c80e7f6c9b6_thumbnail_900x.webp">
+                                    <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/10/14/166574854842d39f221d2f6bc1064482a04a5e3201.gif">
+                                </a>
+                                <ul class="social">
+                                    <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                    <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">50%</span>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Eyeshadow Palette </a></h3>
+                                <div class="price">₱89.67
+                                    <span>Min(150pcs)</span>
+                                </div>
+                                <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+ <!-- IMAGE 3                    -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#">
+                                    <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/10/17/16659933981b5c53e5a6047d4b602a8b2471fa8285.webp">
+                                    <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/10/19/166616657545a6ab417cb8aaeb8c586a65dc1b5169.webp">
+                                </a>
+                                <ul class="social">
+                                    <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                    <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">50%</span>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Violet Flush Blush
+                                </a></h3>
+                                <div class="price">₱60.87
+                                    <span>Min(200pcs)</span>
+                                </div>
+                                <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+ <!-- IMAGE 4                    -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <a href="#">
+                                    <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/07/11/16575304936fdbe6abff9f29608dae2e343ea67932_thumbnail_900x.webp">
+                                    <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/07/11/165753051122adfb9940d6b7d5a707baa260f93dff_thumbnail_900x.webp">
+                                </a>
+                                <ul class="social">
+                                    <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                    <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">50%</span>
+                            </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#"> Vacation Daze Collection</a></h3>
+                                <div class="price">₱126.00
+                                    <span>Min(100pcs)</span>
+                                </div>
+                                <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+             
+           
+<!-- IMAGE 5 -->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/09/19/1663552838051c35043decd4116ea12c8f72b53f70_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/09/19/16635528347ac05e39502f764b3d30f901743d8e10_thumbnail_900x.webp">
+                        </a>
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">20%</span>
+                    </div>
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star disable"></li>
+                    </ul>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Bear Decor Fake Nail</a></h3>
+                        <div class="price">₱22.00
+                            <span>Min(100 pcs)</span>
+                        </div>
+                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+<!-- IMAGE 6 -->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/09/26/1664159514f7557dc12332b8fd5193123a7e120407_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/09/26/166415950881418e0593d245b354eeb0a7568ef808_thumbnail_900x.webp">
+                        </a>
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">30%</span>
+                    </div>
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Hair Curling Iron
+                        </a></h3>
+                        <div class="price">₱277.67
+                            <span>Min(150pcs)</span>
+                        </div>
+                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+<!-- IMAGE 7-->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/08/24/166131997569e171bfe9fae8c1758bf1422b8a96a2_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/09/27/1664240636db342d9c4d274f614ffdd2cabefd547a_thumbnail_900x.webp">
+                        </a>
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">40%</span>
+                    </div>
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Curly Synthetic Wig</a></h3>
+                        <div class="price">₱75.87
+                            <span>Min(200pcs)</span>
+                        </div>
+                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+<!-- IMAGE 8-->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2021/06/16/1623830281e414efdd908303693eb60c8f2cbe7755_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2021/06/16/162383027832f7f84d228e935ba99a407350edc9b3_thumbnail_900x.webp">
+                        </a>
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">Sale</span>
+                        <span class="product-discount-label">50%</span>
+                    </div>
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#"> Electronic ToothBrush</a></h3>
+                        <div class="price">₱115.00
+                            <span>Min(100pcs)</span>
+                        </div>
+                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+    
+       
+<!-- IMAGE 9 -->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2021/07/16/16264086049bdc9481bcd0301249e578c292cf150c_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2021/07/16/16264086112f8fbf93ece95a584681bafb8323f8e8_thumbnail_900x.webp">
+                        </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">20%</span>
+                    </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                            </ul>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#"> Blackhead Remover Device </a></h3>
+                                        <div class="price">₱82.00
+                                            <span>Min(100 pcs)</span>
+                                        </div>
+                                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                                </div>
+                </div>
+            </div>
+<!-- IMAGE 10 -->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/05/16/1652672442e67086e10c96fc8e4b060d02d5d3eefe_thumbnail_900x.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/09/21/1663727047984da87141063280ec8f3442bc1d9a22.webp">
+                        </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">30%</span>
+                    </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                                <div class="product-content">
+                                    <h3 class="title">
+                                        <a href="#">Sponge Hair Pad</a>
+                                    </h3>
+                                        <div class="price">₱5.67
+                                            <span>Min(150pcs)</span>
+                                        </div>
+                                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                                </div>
+                </div>
+            </div>
+            
+<!-- IMAGE 11-->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2022/02/10/16444655015d10af37a4766608bc5fe32a562f2ec7.webp">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2022/01/04/1641275084d6aa084c8c56aa15dbcb3a1d1f60e69e.webp">
+                        </a>
+                        <ul class="social">
+                            <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                            <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">40%</span>
+                    </div>
+                        <ul class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                        </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Extra Long False Eyelashes</a></h3>
+                                    <div class="price">₱5.87
+                                        <span>Min(200pcs)</span>
+                                    </div>
+                                        <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                </div>
+            </div>
+<!-- IMAGE 12-->
+            <div class="col-md-3 col-sm-6 pt-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <a href="#">
+                            <img class="pic-1" src="https://img.ltwebstatic.com/images3_pi/2021/07/28/1627474851e62c8fbadc58e9265e9d19b015132356.gif">
+                            <img class="pic-2" src="https://img.ltwebstatic.com/images3_pi/2021/07/13/1626168856c9477573c6e789a2bdb31186bc853109_thumbnail_900x.webp">
+                        </a>
+                            <ul class="social">
+                                <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                                <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                                <span class="product-new-label">Sale</span>
+                                <span class="product-discount-label">50%</span>
+                    </div>
+                            <ul class="rating">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                            </ul>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Makeup Sponge Set</a></h3>
+                                <div class="price">₱5.00
+                                    <span>Min(100pcs)</span>
+                                </div>
+                                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                            </div>
+                </div>
+            </div>
+    
+<!------------------------------ END PRODUCT----------------------------------------- -->
+        </div>
+    </div>
+</div> 
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</html>

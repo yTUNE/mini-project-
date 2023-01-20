@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- BOOTSTRAP -->
+   
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+      <!--FAV ICON-->
+    <link href="image/B2B - favicon.jpg" rel="icon">
+    <link href="image/B2B - favicon.jpg" rel="apple-touch-icon">
+  
+  <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- CSS -->
+      <link rel="stylesheet" href="styles.css" />
+      <script src="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"></script>
+  
+         <!--CSS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+         <link rel="stylesheet" href="bootstrap.min.css">
+    
+         <link rel="stylesheet" href="css/owl.carousel.min.css">
+   
+         <link rel="stylesheet" href="fonts/icomoon/style.css">
+    
+        <link rel="stylesheet" href="css/styles.css" />
+        <script>   
+           function changeName() {
+    let a = document.getElementById("item");
+    let b = document.getElementById("itemselected");
+    let c = item.innerHTML
+    a.innerHTML = a.innerHTML.replace("Item:","Item: " + c);
+
+  
+    }
+                </script>
+
+
+    <title>Cart</title>
+</head>
+<body>
+     <!-- NAV -->
+  <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+
+    <!--------------------------------- Topbar Search-------------------------------- -->
+    <div class="search-nav">
+      <form class="form-wrapper cf">
+          <input type="text" class="form-control  border-0 small" placeholder="Search here..." required>
+         
+    </form>
+    </div>
+    <button type="submit" class="btn btn-primary">
+      <i class="fa fa-search fa-sm"></i>
+    </button>
+      <ul class="navbar-nav ml-auto">
+  
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </a>
+       
+        </li>
+<!-- ---------------------------------------------NOTIFICATION---------------------------------------------- -->
+      <div class="nav-bell">
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-bell fa-fw"></i>
+        </a>
+  
+    
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+          <h6 class="dropdown-header">
+            Alerts Center
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 18:06</div>
+              <span class="font-weight-bold">RCS Corp. is live now.</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 17:18</div>
+              <span class="font-weight-bold">Cleaners Unlimited was live</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 23:02</div>
+              <span class="font-weight-bold">CMD like your photo.</span>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Show All</a>
+        </div>
+      </li>
+    </div>
+<!------------------------------------------------ MESSAGES----------------------------------------- -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-envelope fa-fw"></i>
+        </a>
+  
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+          <h6 class="dropdown-header">
+            Messages
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg1.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div class="font-weight-bold">
+              <div class="text-truncate"> Shop Check</div>
+              <div class="small text-gray-500"> Out for delivery.</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg2.jpg">
+              <div class="status-indicator"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Classic Motors</div>
+              <div class="small text-gray-500"> [Order Confirmation] </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg3.jpg">
+              <div class="status-indicator bg-warning"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Sweet Clouds</div>
+              <div class="small text-gray-500"> Thank you for your Order. </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg4.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Faucet Basketball</div>
+              <div class="small text-gray-500"> PAYDAY SALE is here. </div>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Read all Messages</a>
+        </div>
+      </li>
+<!---------------------------------------- DROPDOWN----------------------------------------------- -->
+      <div class="topbar-divider d-none d-sm-block"></div>
+
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <span><img class="img-profile rounded-circle" src="image/profile-picture.png"></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+            Settings
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            Activity Log
+          </a>
+            <!-- Button trigger modal -->
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                Logout
+            </a>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+      </div>
+  </div>
+</div>
+      </li>
+    </ul>
+  </nav>
+
+<!---------------------------------------------------- CART--------------------------------------------------- -->
+<header>
+    <div class="d-flex justify-content-center align-items-center pb-3">
+        <div class="px-sm-5 px-2 active">SHOPPING CART
+            <span class="text-success pr-sm-2 pr-0"><i class="fa fa-check"></i></span>
+        </div>
+        <div class="px-sm-5 px-2">CHECKOUT</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+</header>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-10 offset-lg-0 offset-md-2 offset-sm-1">
+            <div id="details" class="bg-white rounded pb-5">
+              <h6>Billing Address</h6>
+                <form>
+                    <div class="form-group">
+                        <label class="pt-2 pb-2">Name:</label>
+                        <input type="text" class="form-control" placeholder="David Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="pt-2 pb-2">Email</label>
+                        <div class="d-flex jusify-content-start align-items-center rounded p-2">
+                            <input type="email" placeholder="Abcde123@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="pt-2 pb-2">City</label>
+                                <div class="d-flex jusify-content-start align-items-center rounded p-2" required>
+                                    <input type="text" placeholder="Manila">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="pt-2 pb-2">Zip code</label>
+                                <div class="d-flex jusify-content-start align-items-center rounded p-2" required>
+                                    <input type="text" placeholder="77001">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="pt-2 pb-2">Address</label>
+                                <div class="d-flex jusify-content-start align-items-center rounded p-2">
+                                    <input type="text" placeholder="#123 Abc Street" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="pt-2 pb-2">City</label>
+                                <div class="d-flex jusify-content-start align-items-center rounded p-2">
+                                    <input type="text" placeholder="Manila" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="pt-2 pb-2" required>Country</label>
+                    <select name="country" id="country">
+                        <option value="usa">PHILIPPINES</option>
+                        <option value="ind">USA</option>
+                        <option value="ind">CHINA</option>
+                        <option value="ind">SINGAPORE</option>
+                    </select>
+                </form>
+                    <div class="shipping pb-3 pt-3">
+                      <input type="checkbox" checked>
+                      <label>Shipping address is same as billing</label>
+                    </div>
+  <!-- Button trigger modal shipping -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add Shipping Address
+          </button>
+</div>
+
+          <!-- Modal Shipping -->
+              <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Shipping Address</h5>
+                           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                           </button>
+                      </div>
+                      <div class="modal-body">
+              
+                      <div class="form-group">
+                        <label class="pt-2 pb-2">Name:</label>
+                        <input type="text" class="form-control" placeholder="David Smith">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="pt-2 pb-2">Phone Number:</label>
+                        <input type="number" class="form-control" placeholder="+123456789">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="pt-2 pb-2">Unit/Floor/House Number:</label>
+                        <input type="text" class="form-control" placeholder="#123">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="pt-2 pb-2">Street/Building Name:</label>
+                        <input type="text" class="form-control" placeholder="123 Street">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="pt-2 pb-2">Region/City/District:</label>
+                        <input type="text" class="form-control" placeholder="Manila City Philippines">
+                      </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Home
+                        </label>
+                      </div>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Office
+                      </label>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                      <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+        <div class="col-lg-6 col-md-8 col-sm-10 offset-lg-0 offset-md-2 offset-sm-1 pt-lg-0 pt-3">
+            <div id="cart" class="bg-white rounded">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="cart-summary">
+                      <h6>Cart Summary<h6>
+                    </div>
+                    <div class="edit">
+                        <a href="#"><h6>Edit</h6></a>
+                    </div>
+                </div>
+                <div class="d-flex jusitfy-content-between align-items-center pt-3 pb-2 border-bottom">
+                    <ul>
+                      <li id="item" class="pt-2">Item:</li>
+                      <li id="price" class="pt-2">Price:</li>
+                      <li id="qty" class="pt-2">Quantity:</li>
+                    </ul>
+                </div>
+                <div class="my-3">
+                    <input type="text" class="w-100 form-control text-center" placeholder="Gift Card or Promo Card">
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="display-5">
+                        <h6>Subtotal:</h6>
+                    </div>
+                    <div class="ml-auto font-weight-bold"></div>
+                </div>
+                <div class="d-flex align-items-center py-2 border-bottom">
+                    <h6>Shipping Fee:<h6>
+                    <div class="ml-auto font-weight-bold">
+                    </div>
+                </div>
+                <div class="d-flex align-items-center py-2">
+                    <h6>Total:</h6>
+                    <div class="ml-auto d-flex">
+                </div>
+            </div>
+            <div class="row pt-lg-3 pt-2 buttons mb-sm-0 mb-2">
+                <div class="col-md-6">
+                    <button onclick="history.back()"><div class="btn text-uppercase">Back to shopping</div></button>
+                    
+                </div>
+                <div class="col-md-6 pt-md-0 pt-3">
+                    <div class="btn text-white ml-auto">
+                      <a href="payment.html"><span><i class="fa fa-lock"></i></span>
+                       <h8 style="color:white;">Continue to Payment</h8> 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="dropdown-item" href="#" data-toggle="modal" data-target="#confirmModal">
+  
+</a>
+
+ <!-- Modal -->
+ <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ aria-hidden="true">
+ <div class="modal-dialog" role="document">
+     <div class="modal-content">
+         <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Payment Confirmation</h5>
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">×</span>
+             </button>
+         </div>
+         <div class="modal-body">Select "Confirm" to proceed with payment.</div>
+         <div class="modal-footer">
+             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+             <a class="btn btn-primary" href="index.html">Confirm</a>
+         </div>
+     </div>
+ </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

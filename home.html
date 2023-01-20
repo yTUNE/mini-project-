@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- BOOTSTRAP -->
+   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--FAV ICON-->
+    <link href="image/B2B - favicon.jpg" rel="icon">
+    <link href="image/B2B - favicon.jpg" rel="apple-touch-icon">
+
+<!-- CSS -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"></script>
+    
+
+    <title>Homepage</title>
+</head>
+<body>
+  
+  <!-- NAV -->
+  <nav class="navbar navbar-expand navbar-light bg-light topbar mb-4 static-top shadow">
+
+
+    <!--------------------------------- Topbar Search-------------------------------- -->
+    <div class="search-nav">
+        <form class="form-wrapper cf">
+            <input type="text" class="form-control  border-0 small" placeholder="Search here..." required>
+           
+      </form>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <i class="fa fa-search fa-sm"></i>
+      </button>
+        <ul class="navbar-nav ml-auto">
+    
+          <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+         
+          </li>
+<!-- ---------------------------------------------NOTIFICATION---------------------------------------------- -->
+
+<div class="nav-bell">
+        
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-bell fa-fw"></i>
+        </a>
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+          <h6 class="dropdown-header">
+            Alerts Center
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>s
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 18:06</div>
+              <span class="font-weight-bold">RCS Corp. is live now.</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 17:18</div>
+              <span class="font-weight-bold">Cleaners Unlimited was live</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">Oct 26, at 23:02</div>
+              <span class="font-weight-bold">CMD like your photo.</span>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Show All</a>
+        </div>
+      </li>
+    </div>
+<!------------------------------------------------ MESSAGES----------------------------------------- -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-envelope fa-fw"></i>
+        </a>
+  
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+          <h6 class="dropdown-header">
+            Messages
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg1.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div class="font-weight-bold">
+              <div class="text-truncate"> Shop Check</div>
+              <div class="small text-gray-500"> Out for delivery.</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg2.jpg">
+              <div class="status-indicator"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Classic Motors</div>
+              <div class="small text-gray-500"> [Order Confirmation] </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg3.jpg">
+              <div class="status-indicator bg-warning"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Sweet Clouds</div>
+              <div class="small text-gray-500"> Thank you for your Order. </div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="image/msg4.jpg">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div>
+              <div class="text-truncate"> Faucet Basketball</div>
+              <div class="small text-gray-500"> PAYDAY SALE is here. </div>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Read all Messages</a>
+        </div>
+      </li>
+<!---------------------------------------- DROPDOWN----------------------------------------------- -->
+      <div class="topbar-divider d-none d-sm-block"></div>
+
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <span><img class="img-profile rounded-circle" src="image/profile-picture.png"></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+            Settings
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            Activity Log
+          </a>
+            <!-- Button trigger modal -->
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i>
+                Logout
+            </a>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <a class="btn btn-primary" href="index.html">Logout</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+        
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+<!---------------------------------------- MAIN----------------------------------------------------- -->
+<main>
+  
+    </div>
+    <div class="container">
+        <div class="row">
+<!---------------------------------------- LEFT--------------------------------------------------------->
+            <div class="col-lg-3 col-12 mx-auto">
+                <div class="left">
+                    <a class="profile">
+                        <div class="profile-picture">
+                            <img src="image/profile-picture.png" alt="profile-picture">
+                        </div>
+                            <div class="handle">
+                                <h4><b>Olympus Corporation</b></h4>
+                                <p class="text-muted">@OlympusCorp</p>
+                            </div>
+                        </a>
+<!-- SIDEBAR-->
+    <div class="sidebar bg-light">
+                    <a class="menu-item active">
+                        <span><i class="fa fa-home"></i></span><h6>Home</h6>
+                    </a>
+                    <a class="menu-item" href="marketplace.html">
+                        <span><i class="fa fa-shopping-bag"></i></span><h6>Market Place</h6>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-group"></i></span><h6>Business Network</h6>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-video-camera"></i></span><h6>Watch</h6>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-calendar"></i></span><h6>Events</h6>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa fa-gear"></i></span><h6>Settings</h6>
+                    </a>
+                </div>
+
+
+<!-- EVENT -->
+<div class="sidebar bg-light">
+    <div class="sidebar-title pt-3">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+    </div>
+<!-- EVENT1 -->
+    <div class="event">
+        <div class="left-event">
+            <h3>30</h3>
+            <span>October</span>
+        </div>
+        <div class="right-event">
+            <h4>Trade Show</h4>
+            <p>Industry Innovation Showcase</p>
+            <div class="pb-3">
+            <a href="#" >More Info</a>
+            </div>
+        </div>
+    </div>
+
+
+<!-- EVENT 2 -->
+    <div class="event">
+        <div class="left-event">
+            <h3>13</h3>
+            <span>November</span>
+        </div>
+        <div class="right-event">
+            <h4>Digital Marketing</h4>
+            <p>Learning Digital Skills Online</p>
+            <div class="pb-3">
+                <a href="#" >More Info</a>
+            </div>
+        </div>
+    </div>
+
+<!-- END OF SIDEBAR -->
+
+  </div>
+  </div>
+  </div>
+   
+<!-- -------------------------------------------------END LEFT-------------------------------- -->
+<!--------------------------------------------------- MIDDLE -------------------------------------->
+<div class="col-lg-6 col-12 mx-auto">
+    <div class="middle">
+        <!-- STORIES -->
+            <div class="stories">
+        <!-- STORY1 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/profile-picture.png" alt="story-picture1">
+                    </div>
+                    <span><img class="cross" src="image/add.png"></span>
+                        <p class="name">Your Story</p>
+                </div>
+        <!-- STORY2 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story2-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Timberman Industries</p>
+                </div>
+        <!-- STORY 3 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story3-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Juri Hardware</p>
+                </div>
+        <!-- STORY 4 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story4-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Got Tea?</p>
+                </div>
+        <!-- STORY 5 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story5-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Paper Company</p>
+                </div>
+        <!-- STORY 6 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story6-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Apple Corporation</p>
+                </div>
+        <!-- STORY 7 -->
+                <div class="story">
+                    <div class="profile-picture">
+                        <img src="image/story7-1.jpg" alt="story-picture1">
+                    </div>
+                        <p class="name">Asus Construction</p>
+                </div>
+            </div>
+        <!-- END OF STORIES -->
+        <form class="create-post">
+            <div class="profile-picture">
+                <img src="image/profile-picture.png" alt="profile-feed">
+            </div>
+            <input type="text" placeholder="What's on your mind?" id="create-post">
+            <input type="submit" value="Post" class="btn btn-primary">
+        </form>
+        
+        <!-- FEED1 -->
+        <div class="feeds">
+            <div class="feed bg-light">
+                <div class="head">
+                    <div class="user">
+                        <div class="feeds-picture">
+                            <img src="image/sample.png">
+                        </div>
+            <div class="info">
+                <h3 class="feed-h3">Timberman Industries</h3>
+                    <small>Singapore, 15 MINUTES AGO</small>
+
+            </div>    
+        </div>
+        </div>
+        
+            <div class="photo">
+                <img src="image/feed1-1.png" alt="feed post2">
+               </div>
+        
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa fa-heart-o"></i></span>
+                    <span><i class="fa fa-comment-o"></i></span>
+                    <span><i class="fa fa-share-square-o"></i></span>
+                </div>
+            <div class="bookmark">
+                    <span><i class="fa fa-bookmark-o"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="image/like1-1.jpg"></span>
+                <span><img src="image/like1-2.jpg"></span>
+                <span><img src="image/like1-3.jpg"></span>
+                <p>Liked by<b> Steel Machinery</b> and <b>153 others</b>
+            </div>
+        
+            <div class="caption">
+                <p><b>Timberman Industries</b> Ongoing machine parts production.<br />
+                    <span class="harsh-tag"> Agricultural Machinery Spare Parts; Harvester Spare Parts; Tractor Spare Parts; Transplanter Spare Parts; Agricultural Machines</span></p>
+            </div>
+            <div class="comments text-muted">View all 50 comments
+            </div>
+        </div>
+        
+        <!-- FEED2 -->
+        <div class="feed">
+            <div class="head">
+                <div class="user">
+                    <div class="feeds-picture">
+                        <img src="image/feed2.jpg">
+                    </div>
+        <div class="info">
+            <h3 class="feed-h3">Got Tea?</h3>
+                <small>Taiwan, 20 MINUTES AGO</small>
+        </div>    
+        </div>
+        </div>
+        
+        <div class="video pt-3">
+            <iframe width="590" height="380" src="https://www.youtube.com/embed/pS_iOIXtkwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+        
+        <div class="action-button">
+            <div class="interaction-button">
+                <span><i class="fa fa-heart-o"></i></span>
+                <span><i class="fa fa-comment-o"></i></span>
+                <span><i class="fa fa-share-square-o"></i></span>
+            </div>
+        <div class="bookmark">
+                <span><i class="fa fa-bookmark-o"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="image/like2-1.jpg"></span>
+            <span><img src="image/like2-2.jpg"></span>
+            <span><img src="image/like2-3.jpg"></span>
+            <p>Liked by<b> Rubic Food Corporation</b> and <b>29 others</b>
+        </div>
+        
+        <div class="caption">
+            <p><b>Got Tea?</b> Made in Taiwan Bubble Tea DIY Kit.<span class="harsh-tag"> Milktea Supplier.</span></p>
+        </div>
+        <div class="comments text-muted">View all 30 comments
+        </div>
+        </div>
+
+        <!-- FEED3 -->
+        <div class="feed">
+            <div class="head">
+                <div class="user">
+                    <div class="feeds-picture">
+                        <img src="image/feed3.jpg">
+                    </div>
+        <div class="info">
+            <h3 class="feed-h3">Redgum Garden Supplies</h3>
+                <small>China, 35 MINUTES AGO</small>
+        </div>    
+        </div>
+        </div>
+        
+        <div class="photo">
+            <img src="image/feeds3-1.png">
+           </div>
+        
+        <div class="action-button">
+            <div class="interaction-button">
+                <span><i class="fa fa-heart-o"></i></span>
+                <span><i class="fa fa-comment-o"></i></span>
+                <span><i class="fa fa-share-square-o"></i></span>
+            </div>
+        <div class="bookmark">
+                <span><i class="fa fa-bookmark-o"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="image/like3-1.jpg"></span>
+            <span><img src="image/like3-2.jpg"></span>
+            <span><img src="image/like3-3.jpg"></span>
+            <p>Liked by<b> Redgum Garden Supplies</b> and <b>40 others</b>
+        </div>
+        
+        <div class="caption">
+            <p><b>Redgum Garden Supplies</b> Wholesale Garden Supplies.<span class="harsh-tag"> Supplier of Flower pot, Plant pot, Wood legs flower pots, Cement flower pots, Concrete flower pots</span></p>
+        </div>
+        <div class="comments text-muted">View all 50 comments
+        </div>
+        </div>
+        <!-- FEED4 -->
+        <div class="feed">
+            <div class="head">
+                <div class="user">
+                    <div class="feeds-picture">
+                        <img src="image/feed4.jpg">
+                    </div>
+        <div class="info">
+            <h3 class="feed-h3">ONN</h3>
+                <small class="pb-2">Bangladesh, 40 MINUTES AGO</small>
+        </div>    
+        </div>
+        </div>
+        
+        <div class="video pt-3">
+            <iframe width="590" height="380" src="https://www.youtube.com/embed/TEPsi1ha2Co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+        
+        <div class="action-button">
+            <div class="interaction-button">
+                <span><i class="fa fa-heart-o"></i></span>
+                <span><i class="fa fa-comment-o"></i></span>
+                <span><i class="fa fa-share-square-o"></i></span>
+            </div>
+        <div class="bookmark">
+                <span><i class="fa fa-bookmark-o"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="image/like4-1.jpg"></span>
+            <span><img src="image/like4-2.jpg"></span>
+            <span><img src="image/like4-3.jpg"></span>
+            <p>Liked by<b>ARC Textiles</b> and <b>70 others</b>
+        </div>
+        
+        <div class="caption">
+            <p><b>ONN</b> Wholesale TShirts<span class="harsh-tag">Multispecialty supplier</span></p>
+        </div>
+        <div class="comments text-muted">View all 15 comments
+        </div>
+        </div>
+        <!-- FEED5 -->
+        <div class="feed">
+            <div class="head">
+                <div class="user">
+                    <div class="feeds-picture">
+                        <img src="image/feed5.jpg">
+                    </div>
+        <div class="info">
+            <h3 class="feed-h3">Black & White Printers & Ink Manufacturer</h3>
+                <small>Manila, 45 MINUTES AGO</small>
+        </div>    
+        </div>
+        </div>
+        
+        <div class="video pt-3">
+            <iframe width="590" height="380" src="https://www.youtube.com/embed/TVpVniWMOV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+        
+        <div class="action-button">
+            <div class="interaction-button">
+                <span><i class="fa fa-heart-o"></i></span>
+                <span><i class="fa fa-comment-o"></i></span>
+                <span><i class="fa fa-share-square-o"></i></span>
+            </div>
+        <div class="bookmark">
+                <span><i class="fa fa-bookmark-o"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="image/like5-1.jpg"></span>
+            <span><img src="image/like5-2.jpg"></span>
+            <span><img src="image/like5-3.jpg"></span>
+            <p>Liked by<b> Addison & Co.</b> and <b>19 others</b>
+        </div>
+        
+        <div class="caption">
+            <p><b>Black & White Printers & Ink Manufacturer</b> Label Rewinder, Printer/Scanner/Data Collecter, Label Printer.<span class="harsh-tag"> Custom Manufacturer</span></p>
+        </div>
+        <div class="comments text-muted">View all 10 comments
+        </div>
+        </div>
+        <!-- FEED6 -->
+        <div class="feed">
+            <div class="head">
+                <div class="user">
+                    <div class="feeds-picture">
+                        <img src="image/feed6.jpg">
+                    </div>
+        <div class="info">
+            <h3 class="feed-h3">Drive Auto Parts</h3>
+                <small>Manila, 50 MINUTES AGO</small>
+        </div>    
+        </div>
+        </div>
+        
+        <div class="video pt-3">
+            <img src="image/feed6-1.jpg">
+           </div>
+        
+        <div class="action-button">
+            <div class="interaction-button">
+                <span><i class="fa fa-heart-o"></i></span>
+                <span><i class="fa fa-comment-o"></i></span>
+                <span><i class="fa fa-share-square-o"></i></span>
+            </div>
+        <div class="bookmark">
+                <span><i class="fa fa-bookmark-o"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="image/like6-1.jpg"></span>
+            <span><img src="image/like6-2.jpg"></span>
+            <span><img src="image/like6-3.jpg"></span>
+            <p>Liked by<b> Yokohama Tires</b> and <b>55 others</b>
+        </div>
+        
+        <div class="caption">
+            <p><b>Drive Auto Parts</b> Factory specialized in Auto body kit for 7 years.<span class="harsh-tag"><div id="Netflix"></div></span></p>
+        </div>
+        <div class="comments text-muted">View all 7 comments
+        </div>
+        <!-- END FEED -->
+        </div>
+        </div>
+        </div>
+
+</div>
+  
+<!-------------------------------------------------- END MIDDLE----------------------------------- -->
+<!--------------------------------------------------- RIGHT----------------------------------------- -->
+<div class="col-lg-3 col-12 mx-auto">
+    <div class="right">
+        <div class="messages">
+            <div class="heading">
+            <h4><b>Messages</h4><i class="fa fa-gear"></i><b>
+    </div>
+
+<!-- MESSAGE OPTIONS-->
+    <div class="category">
+        <h6 class="active">Chat</h6>
+        <h6>Alerts</h6>
+        <h6 class="message-requests">Promos</h6>
+    </div>
+
+<!-- MESSAGE 1-->
+    <div class="message">
+        <div class="profile-picture">
+            <img src="image/msg1.jpg" alt="message-1">
+            <div class="active"></div>
+        </div>
+        <div class="message-body">
+            <h6>Shop Check</h6>
+            <p class="text-bold">Out for delivery.</p>
+        </div>
+    </div>
+
+<!-- MESSAGE 2 -->
+<div class="message">
+    <div class="profile-picture">
+        <img src="image/msg2.jpg" alt="message-2">
+        <div class="active"></div>
+    </div>
+    <div class="message-body">
+        <h6>Classic Motor</h6>
+        <p class="text-bold">[Order Confirmation]</p>
+    </div>
+</div>
+
+<!-- MESSAGE 3 -->
+<div class="message">
+    <div class="profile-picture">
+        <img src="image/msg3.jpg" alt="message-3">
+    </div>
+    <div class="message-body">
+        <h6>Sweet Clouds</h6>
+        <p class="text-muted">Thank you for your Order.</p>
+    </div>
+</div>
+
+<!-- MESSAGE 4 -->
+<div class="message">
+    <div class="profile-picture">
+        <img src="image/msg4.jpg" alt="message-3">
+        <div class="active"></div>
+    </div>
+    <div class="message-body">
+        <h6>Faucet basketball</h6>
+        <p class="text-muted">PAYDAY SALE is here.</p>
+    </div>
+</div>
+
+<!-- MESSAGE 5 -->
+<div class="message">
+    <div class="profile-picture">
+        <img src="image/msg5.jpg" alt="message-5">
+        <div class="active"></div>
+    </div>
+    <div class="message-body">
+        <h6>Salford & Co.</h6>
+        <p class="text-muted">[Voucher]</p>
+    </div>
+</div>
+<!-- END OF MESSAGE -->
+</div>
+<!-- FRIEND REQUESTS -->
+<div class="friend-requests">
+    <div class="request">
+        <h4 class="header pb-2"><b>Requests</b></h4>
+        <div class="info">
+    
+            <div class="feeds-picture">
+                <img src="image/request1.jpg" alt="friend-request1">
+            </div>
+            <div>
+            <h6>Optical Shopping</h6>
+                <p class="text-muted">20 mutual friends</p>
+               </div>
+            </div>
+            <div class="action">
+                <button class="btn btn-primary">
+                    Accept
+                </button>
+                <button class="btn btn-dark">
+                    Decline
+                </button>
+            </div>  
+        </div>
+<!-- REQUEST2 -->
+        <div class="request">
+            <div class="info">
+                <div class="feeds-picture">
+                    <img src="image/request2.jpg" alt="friend-request2">
+                </div>
+                <div>
+                <h6>Smile Shop</h6>
+                    <small><p class="text-muted">20 mutual friends</p></small>
+                   </div>
+                </div>
+                <div class="action">
+                    <button class="btn btn-primary">
+                        Accept
+                    </button>
+                    <button class="btn btn-dark">
+                        Decline
+                    </button>
+                </div>  
+                
+            </div>
+            
+    </div>
+    
+</div>
+
+
+    </div>
+    
+
+
+
+        </div>
+        
+    </div>
+   
+</main>
+
+<!-- ----------------------------FOOTER--------------------------------------------- -->
+
+
+
+<!------------------------------ END FOOTER----------------------------------------------- -->
+<!-- SCRIPT -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
